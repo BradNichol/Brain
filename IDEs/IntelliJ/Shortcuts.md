@@ -9,3 +9,4 @@ and refactoring process.
 | cmd + d | Duplicate the current line |
 | double shift | Search everything |
 | cmd + k | Commit latest changes |
+| shift + cmd + k | Push latest changes |
