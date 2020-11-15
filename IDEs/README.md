@@ -7,5 +7,5 @@ languages over others.
 
 The two that I have used to date are VSCode and IntelliJ.
 
-[IntelliJ](https://brain.bradleynichol.co.uk/ides/intellij)
+[IntelliJ](./IntelliJ)
 
