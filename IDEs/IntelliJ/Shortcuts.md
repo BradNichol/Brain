@@ -10,3 +10,4 @@ and refactoring process.
 | double shift | Search everything |
 | cmd + k | Commit latest changes |
 | shift + cmd + k | Push latest changes |
+| cmd + shift + t | Open/create test class |
