@@ -11,4 +11,5 @@ and refactoring process.
 | cmd + k | Commit latest changes |
 | shift + cmd + k | Push latest changes |
 | cmd + shift + t | Open/create test class |
+| cmd + t | Update project |
 
