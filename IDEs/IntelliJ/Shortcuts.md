@@ -12,4 +12,5 @@ and refactoring process.
 | shift + cmd + k | Push latest changes |
 | cmd + shift + t | Open/create test class |
 | cmd + t | Update project |
+| shift + f6 | Rename selected text |
 
