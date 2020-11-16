@@ -8,8 +8,9 @@ Data that is stored in memory is usually destroyed when the application shuts do
 stored across time and can live independent of the system that created it.
 
 We persist data so that later it can be:
-1. Retrieved
-2. Processed
-3. Transformed
-4. Analyzed
+
+- Retrieved
+- Processed
+- Transformed
+- Analyzed
 
