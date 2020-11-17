@@ -8,6 +8,7 @@
 4. Designing Data-Intensive Applications
 5. Cloud Native Java
 6. Java Performance: In-depth Advice for Tuning and Programming Java 8, 11, and Beyond
+7. High-Performance Java Persistence - Vlad Mihalcea
 
 ## Linkedin Learning
 
