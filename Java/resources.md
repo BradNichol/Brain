@@ -11,4 +11,8 @@
 
 ## Linkedin Learning
 
-- [ ] [Learning Java](https://www.linkedin.com/learning/learning-java-4/)
+Completed
+- [x] [Learning Java](https://www.linkedin.com/learning/learning-java-4/)
+- [x] [Learning Spring with Spring Boot](https://www.linkedin.com/learning/learning-spring-with-spring-boot-2)
+- [ ] [Java Persistence API (JPA): 1 The Basics](https://www.linkedin.com/learning/java-persistence-api-jpa-1-the-basics)
+- [ ] [Java Persistence API (JPA): 2 Inheritance and Querying](https://www.linkedin.com/learning/java-persistence-api-jpa-2-inheritance-and-querying)
