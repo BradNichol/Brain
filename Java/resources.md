@@ -1,6 +1,6 @@
-# Book Recommendations
+# Learning Resources
 
-A list of book recommendations for software development.
+## Books
 
 1. Beginners Guide To Java - (Reading)
 2. Effective Java
@@ -8,3 +8,7 @@ A list of book recommendations for software development.
 4. Designing Data-Intensive Applications
 5. Cloud Native Java
 6. Java Performance: In-depth Advice for Tuning and Programming Java 8, 11, and Beyond
+
+## Linkedin Learning
+
+- [ ] [Learning Java](https://www.linkedin.com/learning/learning-java-4/)
