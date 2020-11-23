@@ -14,6 +14,7 @@ In layman's terms:
 JPA is a specification, and by itself cannot perform any actions. To be functional, JPA requires an implementation,
 also known as a persistence provider.
 
+## Persistence Providers
 The main implementations available are:
 
     1. EclipseLink
