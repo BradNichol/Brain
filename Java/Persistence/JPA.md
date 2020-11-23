@@ -10,3 +10,14 @@ In layman's terms:
 
 - JDBC is a standard for Database Access
 - JPA is a standard for ORM
+
+JPA is a specification, and by itself cannot perform any actions. To be functional, JPA requires an implementation,
+also known as a persistence provider.
+
+The main implementations available are:
+1. EclipseLink
+2. [Hibernate] (https://hibernate.org/)
+3. OpenJPA
+4. Data Nucleus
+
+Of those listed the one I will be learning more about is Hibernate.
