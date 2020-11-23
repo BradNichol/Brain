@@ -1,4 +1,4 @@
-# Persistence API
+# Persistence
 
 ## What is persistence?
 Persistence refers to information that continues to exist even after the process or application that created it is
