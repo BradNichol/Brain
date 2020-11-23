@@ -43,4 +43,12 @@ The popular way is typically via annotations.
 You can use both annotations and XML files, but note that XML will take precedence.
 {% endhint %}
 
+### Annotations
+The annotations that you'll find in most Entity classes are:
+
+    1. @Entity
+    2. @Table
+    3. @Id
+    4. @GeneratedValue
+    5. @Column
 
