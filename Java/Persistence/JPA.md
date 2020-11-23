@@ -21,3 +21,7 @@ The main implementations available are:
 4. Data Nucleus
 
 Of those listed the one I will be learning more about is Hibernate.
+
+{% hint style="info" %}
+Spring Data JPA uses Hibernate as its persistence provider.
+{% endhint %}
