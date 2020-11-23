@@ -27,3 +27,20 @@ Of those listed the one I will be learning more about is Hibernate.
 {% hint style="info" %}
 Spring Data JPA uses Hibernate as its persistence provider.
 {% endhint %}
+
+## JPA Metadata
+Persistence metadata is required to map between Java objects and database tables. The JPA provider will use the
+metadata to perform the correct database operations.
+
+There are two ways to define this metadata.
+
+    1. Annotations within the class
+    2. External XML file
+    
+The popular way is typically via annotations.
+
+{% hint style="info" %}
+You can use both annotations and XML files, but note that XML will take precedence.
+{% endhint %}
+
+
