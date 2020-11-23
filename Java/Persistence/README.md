@@ -21,7 +21,4 @@ We persist data so that later it can be:
 - File systems
 - etc
 
-## What is the Java Persistence API?
-Persistence in Java can be achieved with the Java Persistence API (JPA) which is a specification for the persistence
-of Java objects to any **relational** datastore.
 
