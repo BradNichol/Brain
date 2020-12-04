@@ -21,12 +21,36 @@ A typical structured layer for persisting objects is as follows:
 
 ## Using the Entity Manager
 
-### Reading Objects
+### Reading Entities
 When retrieving an entity using JPA, it's the entity manager that performs this operation, using the 'find' method.
 There are several variations on the find method, but typical it is used with an entity's primary key.
 
 ```
-    public EntityType getEntityById(String entityId) {
-        return entityManager.find(EntityType.class, entityId);
+    public Entity getEntityById(String entityId) {
+        return entityManager.find(Entity.class, entityId);
     }
+```
+
+### Persisting Entities
+
+```
+    public void addEntity(Entity entity) {
+        entityManager.persist(entity);
+    }
+
+```
+
+### Updating Entities
+Note, there is no specific update method to call in the entity manager class, an update happens when one of the
+entities attribute values changes.
+
+First you use the find method to return the persisted entity, and then you update its values before re-persisting.
+
+```
+    public void updateEntity(Entity entity) {
+        Entity getEntity = getEnityById(entity.getId());
+        getEntity.setName(entity.getName());
+        entityManager.flush();
+    }
+
 ```
