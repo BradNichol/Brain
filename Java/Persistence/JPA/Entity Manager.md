@@ -19,3 +19,14 @@ A typical structured layer for persisting objects is as follows:
 2. Service - Interacts with DAO and applies business logic
 3. DAO - Final layer that communicates with the DB to persist the entity.
 
+## Using the Entity Manager
+
+### Reading Objects
+When retrieving an entity using JPA, it's the entity manager that performs this operation, using the 'find' method.
+There are several variations on the find method, but typical it is used with an entity's primary key.
+
+```
+    public EntityType getEntityById(String entityId) {
+        return entityManager.find(EntityType.class, entityId);
+    }
+```
