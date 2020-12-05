@@ -11,13 +11,10 @@ Once it's managed, it is now in a managed state.
 
 ***Notes to be updated regarding Entity Manager***
 
-## Application Layers
+## Application Layer
 
-A typical structured layer for persisting objects is as follows:
-
-1. Controller - Handles incoming request
-2. Service - Interacts with DAO and applies business logic
-3. DAO - Final layer that communicates with the DB to persist the entity.
+You'll typically find the entity manager usage, or other persistent functionality in the DAO or repository
+classes.
 
 ## Using the Entity Manager
 
