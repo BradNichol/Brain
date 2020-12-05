@@ -22,8 +22,8 @@ A typical structured layer for persisting objects is as follows:
 ## Using the Entity Manager
 
 ### Reading Entities
-When retrieving an entity using JPA, it's the entity manager that performs this operation, using the 'find' method.
-There are several variations on the find method, but typical it is used with an entity's primary key.
+When retrieving an entity using JPA, it's the entity manager that performs this operation, using the available 
+**find** method. There are several variations on the find method, but typical it is used with an entity's primary key.
 
 ```
     public Entity getEntityById(String entityId) {
@@ -32,6 +32,7 @@ There are several variations on the find method, but typical it is used with an 
 ```
 
 ### Persisting Entities
+To persist an entity, use the available **persist** method.
 
 ```
     public void addEntity(Entity entity) {
@@ -51,6 +52,16 @@ First you use the find method to return the persisted entity, and then you updat
         Entity getEntity = getEnityById(entity.getId());
         getEntity.setName(entity.getName());
         entityManager.flush();
+    }
+
+```
+
+### Deleting Entities
+To delete an entity, use the available **remove** method.
+
+```
+    public void deleteBrand(String brandId) {
+        entityManager.remove(getBrandById(brandId));
     }
 
 ```
