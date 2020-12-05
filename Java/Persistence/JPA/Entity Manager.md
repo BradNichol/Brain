@@ -60,8 +60,8 @@ First you use the find method to return the persisted entity, and then you updat
 To delete an entity, use the available **remove** method.
 
 ```
-    public void deleteBrand(String brandId) {
-        entityManager.remove(getBrandById(brandId));
+    public void deleteEntity(String entityId) {
+        entityManager.remove(getEntityById(entityId));
     }
 
 ```
