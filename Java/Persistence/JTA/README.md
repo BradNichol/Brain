@@ -1,4 +1,4 @@
-# Java Transaction API
+# Java Transaction API (JTA)
 
 JTA is an api for managing transactions in Java, it allows you to start, commit and rollback 
 transactions seamlessly.
