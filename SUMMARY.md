@@ -12,3 +12,9 @@
     * [Java Transaction API (JTA)](Java/Persistence/JTA/README.md)
 
 * [Resources](Java/resources.md)
+
+## Tools
+* [IDEs](Tools/IDEs/README.md)
+    * [IntelliJ](Tools/IDEs/IntelliJ/README.md)
+        * [Shortcuts](Tools/IDEs/IntelliJ/Shortcuts.md)
+    
