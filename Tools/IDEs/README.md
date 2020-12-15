@@ -7,5 +7,5 @@ languages over others.
 
 The two that I have used to date are VSCode and IntelliJ.
 
-[IntelliJ](../IDEs/IntelliJ)
+[IntelliJ](./IntelliJ/README.md)
 
