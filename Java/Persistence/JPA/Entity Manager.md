@@ -14,7 +14,7 @@ Once it's managed, it is now in a managed state.
 ## Application Layer
 
 You'll typically find the entity manager usage, or other persistent functionality in the DAO or repository
-classes.
+layers/classes.
 
 ## Using the Entity Manager
 
