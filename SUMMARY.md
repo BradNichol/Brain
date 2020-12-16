@@ -8,6 +8,7 @@
     * [Java Persistence API (JPA)](Java/Persistence/JPA/README.md)
         * [Entity Manager](Java/Persistence/JPA/Entity%20Manager.md)
         * [Transaction Management](Java/Persistence/JPA/Transaction%20Management.md)
+        * [Relationship Mapping](Java/Persistence/JPA/relationship-mapping.md)
 
     * [Java Transaction API (JTA)](Java/Persistence/JTA/README.md)
 
