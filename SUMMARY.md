@@ -1,13 +1,13 @@
 # Summary
 
 ## Java
-* [Intro](Java/Intro.md)
+* [Intro](Java/intro.md)
 
 * [Persistence](Java/Persistence/README.md)
 
     * [Java Persistence API (JPA)](Java/Persistence/JPA/README.md)
-        * [Entity Manager](Java/Persistence/JPA/Entity%20Manager.md)
-        * [Transaction Management](Java/Persistence/JPA/Transaction%20Management.md)
+        * [Entity Manager](Java/Persistence/JPA/entity-manager.md)
+        * [Transaction Management](Java/Persistence/JPA/transaction-management.md)
         * [Relationship Mapping](Java/Persistence/JPA/relationship-mapping.md)
 
     * [Java Transaction API (JTA)](Java/Persistence/JTA/README.md)
@@ -17,5 +17,5 @@
 ## Tools
 * [IDEs](Tools/IDEs/README.md)
     * [IntelliJ](Tools/IDEs/IntelliJ/README.md)
-        * [Shortcuts](Tools/IDEs/IntelliJ/Shortcuts.md)
+        * [Shortcuts](Tools/IDEs/IntelliJ/shortcuts.md)
     
