@@ -10,7 +10,8 @@ There are four main relationship types that can be used to map data across entit
     3. One-to-One
     4. Many-to-Many
     
- 
+## Relationship Types
+
 ### Many-To-One
 In this relationship, many entities can relate to a single entity. For example, a Company entity will have many
 Employee entities associated to it.
