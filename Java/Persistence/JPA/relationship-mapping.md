@@ -13,7 +13,10 @@ There are four main relationship (cardinalities) types that can be used to map d
 ## Relationship Types
 
 ### One-To-Many
-Notes to be updated
+A one-to-many relationship exists when one row in table A may be linked with many rows in table B, 
+but one row in table B is linked to only one row in table A. 
+
+For example an online shopping basket can have many items, so here we have a one-to-many mapping.
 
 ### Many-To-One
 In this relationship, many entities can relate to a single entity. For example, a Company entity will have many
