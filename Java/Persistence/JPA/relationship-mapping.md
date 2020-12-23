@@ -48,3 +48,26 @@ Notes to be updated
 
 ### Many-To-Many
 Notes to be updated
+
+## Join Types
+There are two ways to join the information across tables, using @JoinColumn and @JoinTable.
+
+When using @JoinColumn, typically in many-to-one relationships, the two columns across two tables will store 
+the same reference (id). For example, the id column on Company table will store in the company_id column
+on the Employee table, thus linking the employee record with the company.
+
+When using @JoinTable, typically in many-to-many relationships, a third table is generated that stores
+the linking id's. For example:
+
+| id | company_id | employee_id |
+| ---| ---------- | ----------- |
+| 01 | 00001 | 00056 |
+| 02 | 00001 | 00045 |
+| 03 | 00001 | 00123 |
+| 04 | 00002 | 001323 |
+
+When the data is required, this table will be referenced to join the correct records.
+
+**Which one should I use?**
+This will depend on the use case. Please note that JoinColumn is typically more performant as a third table
+is not required to process data. So if JoinColumn is sufficient for the use case, then this should be used.
