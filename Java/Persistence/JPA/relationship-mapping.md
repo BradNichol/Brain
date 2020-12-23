@@ -47,7 +47,10 @@ private Company company;
 Notes to be updated
 
 ### Many-To-Many
-Notes to be updated
+In this relationship two entities can reference each other, but also other entities too. 
+
+For example, a company can associate with many different freelance workers, and freelancers can associate
+with many different companies. 
 
 ## Join Types
 There are two ways to join the information across tables, using @JoinColumn and @JoinTable.
@@ -66,8 +69,8 @@ the linking id's. For example:
 | 03 | 00001 | 00123 |
 | 04 | 00002 | 001323 |
 
-When the data is required, this table will be referenced to join the correct records.
+When the data is required this table will be referenced to join the correct records.
 
 **Which one should I use?**
 This will depend on the use case. Please note that JoinColumn is typically more performant as a third table
-is not required to process data. So if JoinColumn is sufficient for the use case, then this should be used.
+is not required to process data. So if JoinColumn is sufficient for the use case then this should be used.
