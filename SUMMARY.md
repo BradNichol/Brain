@@ -1,21 +1,27 @@
 # Summary
 
 ## Java
-* [Intro](Java/README.md)
+* [Intro](java/README.md)
 
-* [Persistence](Java/Persistence/README.md)
+* [Persistence](java/persistence/README.md)
 
-    * [Java Persistence API (JPA)](Java/Persistence/JPA/README.md)
-        * [Entity Manager](Java/Persistence/JPA/entity-manager.md)
-        * [Transaction Management](Java/Persistence/JPA/transaction-management.md)
-        * [Relationship Mapping](Java/Persistence/JPA/relationship-mapping.md)
+    * [Java Persistence API (JPA)](java/persistence/jpa/README.md)
+        * [Entity Manager](java/persistence/jpa/entity-manager.md)
+        * [Transaction Management](java/persistence/jpa/transaction-management.md)
+        * [Relationship Mapping](java/persistence/jpa/relationship-mapping.md)
 
-    * [Java Transaction API (JTA)](Java/Persistence/JTA/README.md)
+    * [Java Transaction API (JTA)](java/persistence/jta/README.md)
 
-* [Resources](Java/resources.md)
+* [Resources](java/resources.md)
 
 ## Tools
-* [IDEs](Tools/IDEs/README.md)
-    * [IntelliJ](Tools/IDEs/IntelliJ/README.md)
-        * [Shortcuts](Tools/IDEs/IntelliJ/shortcuts.md)
-    
+* [IDEs](tools/ides/README.md)
+    * [IntelliJ](tools/ides/intelliJ/README.md)
+        * [Shortcuts](tools/ides/intelliJ/shortcuts.md)
+
+
+## Book Notes
+* [Intro](book-notes/README.md)
+
+* [Java A Beginner's Guide](book-notes/java-a-beginners-guide/README.md)
+    * [Chapter 1. Java Fundamentals](book-notes/java-a-beginners-guide/chapter-01-java-fundamentals/README.md)

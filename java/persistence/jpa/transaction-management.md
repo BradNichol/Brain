@@ -19,6 +19,6 @@ EntityTransaction implementation of EntityManager.
 
 ```
 {% hint style="info" %}
-Please note, the above implementation is often replaced by using [Java Transaction API (JTA)](../JTA/README.md) and applied using
+Please note, the above implementation is often replaced by using [Java Transaction API (JTA)](../jta/README.md) and applied using
 the @Transaction annotation. 
 {% endhint %}
