@@ -1,7 +1,7 @@
 # Summary
 
 ## Java
-* [Intro](Java/intro.md)
+* [Intro](Java/README.md)
 
 * [Persistence](Java/Persistence/README.md)
 
