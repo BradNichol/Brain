@@ -11,3 +11,16 @@ There are two categories of built-in data types in Java.
 * Object-orientated
 * Non object-orientated
 
+The non objected-orientated types are the primitives, and there are 8 of them. The term primitive
+is used to indicate that these types are not objects. 
+
+| Type    | Meaning                         | Width in Bits |    
+| ---     | ------------                    | ----------    |
+| boolean | true/false                      | 1             |
+| byte    | 8-bit integer                   | 8             |
+| char    | Character                       | 16            |
+| double  | Double-precision floating point | 64            |
+| float   | Single-precision floating point | 32            |
+| int     | Integer                         | 32            |
+| long    | Long integer                    | 64            |
+| short   | Short integer                   | 16            |
