@@ -44,4 +44,22 @@ JDK is required on the specific machine to be able to compile and run a Java pro
 Java interpreter.
   
 * The JDK runs in the command-prompt environment only. To compile and run a Java program you can 
-use the command line, however this is typically handled by the IDE now.
+use the command line, however this is typically handled by the IDE now. 
+  
+## Java Keywords
+As of Java 11, there are 61 keywords defined in the language. Along with the operators and separators
+these form the definition of the Java language.
+The following keywords cannot be used as names for variables, classes or methods.
+
+|            |           |            |          |           |              |
+|  ---       |   ---     |  ---       |  ---     |    ---    |       ---    |
+| abstract   | assert    | boolean    | break    | byte      | case         |
+| catch      | char      | class      | const    | continue  | default      |
+| do         | double    | else       | enum     | exports   | extends      |
+| final      | finally   | float      | for      | goto      | if           |
+| implements | import    | instanceof | int      | interface | long         |
+| module     | native    | new        | open     | opens     | package      |
+| private    | protected | provides   | public   | requires  | return       |
+| short      | static    | strictfp   | super    | switch    | synchronized | 
+| this       | throw     | throws     | to       | transient | transitive   |
+| try        | uses      | void       | volatile | while     | with         |
