@@ -25,3 +25,4 @@
 
 * [Java A Beginner's Guide](book-notes/java-a-beginners-guide/README.md)
     * [Chapter 1. Java Fundamentals](book-notes/java-a-beginners-guide/chapter-01-java-fundamentals/README.md)
+    * [Chapter 2. Data Types and Operators](book-notes/java-a-beginners-guide/chapter-02-data-types-and-operators/README.md)
