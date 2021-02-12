@@ -65,3 +65,25 @@ Y
 ```
 {% endhint %}
 
+### Boolean Type
+The boolean type can be one of two values, true or false.
+
+{% hint style="info" %}
+A boolean variable can control a conditional if statement without explicit code. 
+For example:
+```
+boolean isAllowed == true;
+
+if (isAllowed) { .... this is OK
+
+if (isAllowed == true) { ....  this is not neccessary
+
+```
+
+A relational operator will return a boolean value, and does not require explicit code either.
+For example:
+```aidl
+return 5 > 2;
+```
+{% endhint %}
+
