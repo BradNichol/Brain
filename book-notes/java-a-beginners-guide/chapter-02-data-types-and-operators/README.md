@@ -58,7 +58,7 @@ As char is an unsigned type, it is possible to perform arithmetic functions on a
 For example:
 ```
 char letter = 'X';
-char++
+letter++
 System.out.println(letter);
 Y
 
