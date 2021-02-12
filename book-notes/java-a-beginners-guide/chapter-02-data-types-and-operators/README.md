@@ -38,3 +38,30 @@ The smallest integer type is a byte, which is typically useful for when working 
 
 ### Floating-point Types
 
+There are two floating-point types to represent fractional numbers.
+1. float - single precision - 32 bits wide
+2. double - double precision - 64 bits wide
+
+Double is the most commonly used type and many of the Java class library math functions will return a double.
+
+### Char
+In Java a char is an unsigned 16-bit type that can be used to represent the characters found in all human
+langages. This is Unicode. This is why a Java char is 16-bit and not 8-bit like a lot of other programming languages 
+that use ASCII.
+
+{% hint style="info" %}
+ASCII character set is a subset of Unicode and as such can still be used in Java.
+{% endhint %}
+
+{% hint style="warning" %}
+As char is an unsigned type, it is possible to perform arithmetic functions on a variable.
+For example:
+```
+char letter = 'X';
+char++
+System.out.println(letter);
+Y
+
+```
+{% endhint %}
+
