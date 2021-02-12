@@ -24,3 +24,17 @@ is used to indicate that these types are not objects.
 | int     | Integer                         | 32            |
 | long    | Long integer                    | 64            |
 | short   | Short integer                   | 16            |
+
+### Integers
+There are four integer types, byte, short, int and long. All of these integer types can be assigned
+either positive or negative values. Java does not support unsigned (positive-only) integers like some
+other languages do.
+
+For most cases you'll typically use an int.
+
+{% hint style="info" %}
+The smallest integer type is a byte, which is typically useful for when working with raw binary data.
+{% endhint %}
+
+### Floating-point Types
+
