@@ -76,7 +76,7 @@ boolean isAllowed == true;
 
 if (isAllowed) { .... this is OK
 
-if (isAllowed == true) { ....  this is not neccessary
+if (isAllowed == true) { ....  this will compile but it is not neccessary
 
 ```
 
