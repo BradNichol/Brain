@@ -87,3 +87,32 @@ return 5 > 2;
 ```
 {% endhint %}
 
+## Literals
+
+Literals refer to fixed values, for example 100 is a literal and are also known as constants. Literals can be any of the primitive types.
+char literals are specified with single quotes, whereas string literals with double quotes.
+
+Long and float primitives can also be specified by adding a character to the end of value.
+For example:
+```aidl
+long longNumber = 12345678910L
+float floatNumber = 1234.56F
+```
+To make ***integers*** and ***floating-point*** literals easier to read, you can embed underscores which are removed at compile time.
+```aidl
+int number = 123_456_789
+==> 123456768 
+```
+This is typically useful for numbers such as customer IDs and parts numbers.
+
+### Hexadecimal & Octal literals
+Number systems such as octal and hexadecimal can be represented in Java.
+
+The system based on 8 is octal and base 16 system is hexadecimal.
+Octal uses numbers 0 to 7, and hexadecimal uses digits 0 to 9, and letters A to F, which stand for 10, 11, 12, 13, 14, 15.
+```aidl
+int hexNumber = 0xFF; // 255 in decimal
+int octNumber = 011; // 9 in decimal
+```
+
+
