@@ -115,4 +115,38 @@ int hexNumber = 0xFF; // 255 in decimal
 int octNumber = 011; // 9 in decimal
 ```
 
+### Escape Sequences
+Some characters in Java can pose an issue when used in certain situations. For example, single and double quotes are used to enclose strings,
+but what if you need to display a quote mark? That's where escape sequences can help.
+Also referred as backlash character constants.
+
+| Escape Sequence   | Description          |    
+| ----------------  | -----------------    |
+| \'                | Single quote         |
+| \"                | Double quote         |
+| \\                | Backslash            |
+| \r                | Carriage return ↵    |
+| \n                | New line             |
+| \f                | Form feed            |
+| \t                | Horizontal tab       |
+| \b                | Backspace            |
+| \ddd              | Octal constant (ddd is the octal value)   |
+| \uxxxx            | Hexadecimal contstant (xxxx is the value) |
+
+If I wanted to assign a backslash to a variable, it would be the following char backSlash = '\\';
+
+### String Literals
+A string literal is a set of characters enclosed by double quotes. (single quotes will not work).
+
+A string literal can contain one or more of the escaoe sequences from above.
+
+{% hint style="info" %}
+A string literal that contains a single character is not the same as a single letter of type char.
+{% endhint %}
+
+
+
+
+
+
 
