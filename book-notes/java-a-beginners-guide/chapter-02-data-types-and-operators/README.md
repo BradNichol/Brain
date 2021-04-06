@@ -144,6 +144,89 @@ A string literal can contain one or more of the escaoe sequences from above.
 A string literal that contains a single character is not the same as a single letter of type char.
 {% endhint %}
 
+## Operators
+
+Java has four general classes of operators: 
+1. Arithmetic
+2. Bitwise
+3. Relational
+4. Logical
+
+### Arithmetic
+
+| Operator          | Description          |    
+| ----------------  | -----------------    |
+| +                 | Addition             |
+| -                 | Subtraction          |
+| *                 | Multiplication       |
+| /                 | Division             |
+| %                 | Modulus              |
+| ++                | Increment            |
+| --                | Decrement            |
+
+Note, when using an operator on int values, any remainder will be truncated.
+
+{% hint style="info" %}
+Increment and decrement operators can also be used to control when the operation takes place.
+
+For example:
+x = 10;
+y = ++x;
+y will be set to 11.
+__
+
+x = 10;
+y = x++;
+y will be set to 10.
+
+In both cases, x is still set to 11.
+{% endhint %}
+
+### Relational
+
+| Operator          | Description          |    
+| ----------------  | -----------------    |
+| ==                | Equal to             |
+| !=                | Not equal to         |
+| >                 | Greater than         |
+| <                 | Less than            |
+| >=                | Greater than or equal to |
+| <=                | less than or equal to    |
+
+### Logical
+
+| Operator          | Description          |    
+| ----------------  | -----------------    |
+| &                 | AND                  |
+| &#124;            | OR                   |
+| ^                 | XOR (exclusive OR)   |
+| &#124;&#124;      | Short-circuit OR     |
+| &&                | Short-circuit AND    |
+| !                 | NOT                  |
+
+{% hint style="info" %}
+XOR represents the inequality function, i.e., the output is true if the inputs are not alike otherwise the output is 
+false. A way to remember XOR is "must have one or the other but not both".
+
+Example from Baeldung:
+Car car = Car.dieselAndManualCar();
+boolean dieselXorManual = (car.isDiesel() && !car.isManual()) || (!car.isDiesel() && car.isManual());
+
+Above can be reduced to:
+Car car = Car.dieselAndManualCar();
+boolean dieselXorManual = car.isDiesel() ^ car.isManual();
+
+{% endhint %}
+
+The outcome of relational and logical operators is always a boolean value.
+
+
+
+
+
+
+
+
 
 
 
