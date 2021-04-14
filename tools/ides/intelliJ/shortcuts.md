@@ -75,4 +75,4 @@ You can also collapse all methods in a class by pressing ⌘⇧-
 To surround code with an if statement, or try/catch block etc, place the cursor on the code fragment and press ⌘⌥T.
 To unwrap a code fragment, press fn⌘⇧⌫
 
-![Surround](https://github.com/BradNichol/Brain/blob/485a625aeb954e474c107dbcdef28b5a912a6b46/media/img/surroundunwrap.gif)
+![Surround](https://raw.githubusercontent.com/BradNichol/Brain/485a625aeb954e474c107dbcdef28b5a912a6b46/media/img/surroundunwrap.gif)
