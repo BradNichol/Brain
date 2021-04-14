@@ -61,3 +61,5 @@ Press command and backspace ⌘⌫
 #### Move Code Fragments
 To move a code section up, place the cursor at the beginning of the line and press option, shift + up key. ⌥⇧↑.
 You can also move a whole method by placing the cursor at the beginning of the method name and press command, shift + up key. ⌘⇧↑.
+
+![Moving code](https://raw.githubusercontent.com/BradNichol/Brain/master/media/img/movecode.gif)
