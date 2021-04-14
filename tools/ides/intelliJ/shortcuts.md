@@ -68,3 +68,9 @@ You can also move a whole method by placing the cursor at the beginning of the m
 It can be easier to read code by collapsing sections of it. Depending on where your cursor is placed, you can collapse a conditional statement or
 a method by pressing command + -. ⌘-. Press ⌘= to expand the code.
 You can also collapse all methods in a class by pressing ⌘⇧-
+
+![Collapse Code](https://raw.githubusercontent.com/BradNichol/Brain/189c49015c36f8db8a5ffb5342c6dd054d1160bd/media/img/collapsecode.gif)
+
+#### Surround and unwrap
+To surround code with an if statement, or try/catch block etc, place the cursor on the code fragment and press ⌘⌥T
+To unwrap a code fragment, press fn⌘⇧⌫
