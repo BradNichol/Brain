@@ -76,3 +76,8 @@ To surround code with an if statement, or try/catch block etc, place the cursor 
 To unwrap a code fragment, press fn⌘⇧⌫
 
 ![Surround](https://raw.githubusercontent.com/BradNichol/Brain/485a625aeb954e474c107dbcdef28b5a912a6b46/media/img/surroundunwrap.gif)
+
+#### Select Multiple Occurrences
+If you want to change a selection of code that has many occurrences in a file, select the fragment and press control + G. ⌃G.
+Keep pressing to select more occurrences. If you want to select all of the occurrences, first select with ⌃G, then press ⌘⌃G.
+You can now edit in bulk.
