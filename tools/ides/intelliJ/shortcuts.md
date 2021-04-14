@@ -20,27 +20,35 @@ the various shortcuts IntelliJ has to improve my overall productivity.
 
 I'm displaying the most useful ones here:
 
-### Find Action
+### Essentials
+
+#### Find Action
 The find action shortcut provides a popup search box to find all of the other actions that Intellij provides. 
 Just press command + shift + a. ⌘⇧A.
 
 Need to commit a recent code change but you don't know the shortcut? Use the find actions shortcut and 
 then search for commit.
 
-### Search Everywhere
+#### Search Everywhere
 To search everything and anything within Intellij, whether it's an action, class or file etc, you can use the search everywhere 
 tool by pressing shift ⇧ twice.
 
 **TIP:** Use the prefix of the required words you're searching for. For example, if you're searching for a class called ProductServiceImp, 
 use 'psi' to filter the results faster.
 
-### Basic Completion
+#### Basic Completion
 Intellij will recommend a set of code completions whenever you're typing. However, you can also trigger the code completion/suggestions 
 window by pressing control ⌃ + space. This is especially useful for argument suggestions. Place the cursor inside the parenthesis and use ⌃ + space for recommendations. 
 Once chosen, complete any code suggestion by pressing ⌘⇧↵.
 
-### Expand Code Selection
+####˚ Expand Code Selection
 You can select chunks of code by expanding the selection from where your cursor is placed. Useful for selecting a 
 whole word, or code block with ease. Press ⌥ + ↑. Deselect by using the down arrow.
 
 ![Code Selection](https://raw.githubusercontent.com/BradNichol/Brain/8c05de9dd1642b2cdf3e12e5edb92e1ffe74ce93/media/img/codeselection.gif)
+
+### Comment / Uncomment Line
+Either place cursor on a single line or select multiple lines and press ⌘/
+
+### Delete Current Line
+Press command and backspace ⌘⌫
