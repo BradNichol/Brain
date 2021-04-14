@@ -42,3 +42,5 @@ Once chosen, complete any code suggestion by pressing ⌘⇧↵.
 ### Expand Code Selection
 You can select chunks of code by expanding the selection from where your cursor is placed. Useful for selecting a 
 whole word, or code block with ease. Press ⌥ + ↑. Deselect by using the down arrow.
+
+![Code Selection](media/img/codeselection.gif)
