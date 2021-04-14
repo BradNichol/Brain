@@ -43,4 +43,4 @@ Once chosen, complete any code suggestion by pressing ⌘⇧↵.
 You can select chunks of code by expanding the selection from where your cursor is placed. Useful for selecting a 
 whole word, or code block with ease. Press ⌥ + ↑. Deselect by using the down arrow.
 
-![Code Selection](media/img/codeselection.gif)
+![Code Selection](https://github.com/BradNichol/Brain/blob/8c05de9dd1642b2cdf3e12e5edb92e1ffe74ce93/media/img/codeselection.gif)
