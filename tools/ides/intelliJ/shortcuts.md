@@ -81,3 +81,5 @@ To unwrap a code fragment, press fn⌘⇧⌫
 If you want to change a selection of code that has many occurrences in a file, select the fragment and press control + G. ⌃G.
 Keep pressing to select more occurrences. If you want to select all of the occurrences, first select with ⌃G, then press ⌘⌃G.
 You can now edit in bulk.
+
+![Select Occurrences](https://raw.githubusercontent.com/BradNichol/Brain/0434ccc5b014f88bb1d2c00e31cc0e397df40f1a/media/img/selectoccurrences.gif)
