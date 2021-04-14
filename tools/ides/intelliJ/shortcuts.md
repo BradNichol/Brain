@@ -41,14 +41,23 @@ Intellij will recommend a set of code completions whenever you're typing. Howeve
 window by pressing control ⌃ + space. This is especially useful for argument suggestions. Place the cursor inside the parenthesis and use ⌃ + space for recommendations. 
 Once chosen, complete any code suggestion by pressing ⌘⇧↵.
 
-####˚ Expand Code Selection
+#### Expand Code Selection
 You can select chunks of code by expanding the selection from where your cursor is placed. Useful for selecting a 
 whole word, or code block with ease. Press ⌥ + ↑. Deselect by using the down arrow.
 
 ![Code Selection](https://raw.githubusercontent.com/BradNichol/Brain/8c05de9dd1642b2cdf3e12e5edb92e1ffe74ce93/media/img/codeselection.gif)
 
-### Comment / Uncomment Line
+### Editor Basics
+
+#### Comment / Uncomment Line
 Either place cursor on a single line or select multiple lines and press ⌘/
 
-### Delete Current Line
+#### Duplicate Current Line
+Duplicate any single line or selection of lines by pressing command + d. ⌘D
+
+#### Delete Current Line
 Press command and backspace ⌘⌫
+
+#### Move Code Fragments
+To move a code section up, place the cursor at the beginning of the line and press option, shift + up key. ⌥⇧↑.
+You can also move a whole method by placing the cursor at the beginning of the method name and press command, shift + up key. ⌘⇧↑.
