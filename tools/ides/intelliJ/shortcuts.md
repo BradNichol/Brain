@@ -62,4 +62,9 @@ Press command and backspace ⌘⌫
 To move a code section up, place the cursor at the beginning of the line and press option, shift + up key. ⌥⇧↑.
 You can also move a whole method by placing the cursor at the beginning of the method name and press command, shift + up key. ⌘⇧↑.
 
-![Moving code](https://raw.githubusercontent.com/BradNichol/Brain/master/media/img/movecode.gif)
+![Moving code](https://raw.githubusercontent.com/BradNichol/Brain/f1a35ba98fb3103cbd5523a1d584336e070f1a01/media/img/movecode.gif)
+
+#### Code Collapse
+It can be easier to read code by collapsing sections of it. Depending on where your cursor is placed, you can collapse a conditional statement or
+a method by pressing command + -. ⌘-. Press ⌘= to expand the code.
+You can also collapse all methods in a class by pressing ⌘⇧-
