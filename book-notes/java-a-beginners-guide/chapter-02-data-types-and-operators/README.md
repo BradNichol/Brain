@@ -220,6 +220,14 @@ boolean dieselXorManual = car.isDiesel() ^ car.isManual();
 
 The outcome of relational and logical operators is always a boolean value.
 
+{% hint style="info" %}
+The only difference between the short-circuit and the normal operator is that normal will always evaluate 
+each operand, whereas short-circuit will evaluate the second operand only when necessary.
+This saves time and is more efficient.
+
+{% endhint %}
+
+
 
 
 
