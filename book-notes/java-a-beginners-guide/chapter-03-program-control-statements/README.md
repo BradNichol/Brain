@@ -90,4 +90,6 @@ The default case is optional.
 The break statement causes the program flow to exit. If it is not specified, all statements at and
 following the match case will continue to be executed until a break statement is hit.
 
+**Nested switch statements are also allowed.**
+
 
