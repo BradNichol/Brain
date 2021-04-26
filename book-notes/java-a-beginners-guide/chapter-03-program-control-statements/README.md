@@ -18,7 +18,10 @@ The program control statements in Java are as follows:
 * continue
 * return
 
-## The if Statement
+## Selection Statements
+The selection statements are also known as decision making statements or branching statements
+
+### The if Statement
 
 ```aidl
 if (condition) {
@@ -30,7 +33,7 @@ if (condition) {
 ```
 The conditional expression controlling the if must produce a boolean result.
 
-### Nested ifs
+#### Nested ifs
 Very common usage of using an if statement within an if/else statement block. Note, the an else statement
 always refers to the nearest if statement that is within the same block. 
 Example:
@@ -45,7 +48,7 @@ if (i == 1) {
 
 ```
 
-### if-else-if ladder
+#### if-else-if ladder
 A common construct in programming is the if-else-if ladder. The conditional expressions are evaluated from 
 the top down. As soon as a true condition is met, the statement block executes and the rest of the ladder is 
 bypassed.
@@ -66,7 +69,7 @@ if (condition) {
 
 ```
 
-## Switch Statement
+### The Switch Statement
 The second type of selection statement is a switch statement. Similar to creating an if-else-ladder,
 the switch provides multiway branching allowing a program to select among several alternatives.
 The switch is typically a more efficient approach than writing ladders.
@@ -92,4 +95,4 @@ following the match case will continue to be executed until a break statement is
 
 **Nested switch statements are also allowed.**
 
-
+## Iteration Statements
