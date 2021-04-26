@@ -74,9 +74,20 @@ The switch is typically a more efficient approach than writing ladders.
 The value of an expression is tested against a list of constants and executed when a match is found.
 ```aidl
 switch (expression) {
-    case *constant1*:
-      _statement sequence_
-      break; K 
+    case constant1:
+      statement sequence
+      break; 
+    case constant2:
+      statment sequence
+      break;
+    default:
+      statement sequence
+}
 
 ```
+Each of the case constants must be unique. Duplicates are not allowed.
+The default case is optional.
+The break statement causes the program flow to exit. If it is not specified, all statements at and
+following the match case will continue to be executed until a break statement is hit.
+
 
