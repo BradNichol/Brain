@@ -187,3 +187,8 @@ for (int i = 0; i < num; i++) {
 The break statement can be used in any of Java's loop types, and it can also be used in nested loops.
 Note, inside a nested loop, the break will only apply to the innermost loop it is actioned on.
 {% endhint %}
+
+You can also use a label with break statements, to break from a particular part of a loop into another part of the loop. Due to differing opinions
+on usage (similar but better than goto), and it's lack of usage in many programs, I won't make further notes on it.
+
+### continue
