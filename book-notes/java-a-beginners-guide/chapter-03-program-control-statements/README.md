@@ -192,3 +192,23 @@ You can also use a label with break statements, to break from a particular part 
 on usage (similar but better than goto), and it's lack of usage in many programs, I won't make further notes on it.
 
 ### continue
+The continue statement can be used to force an early iteration of a loop. This will skip any code between itself and the conditional expression.
+Where break is used to break out of a loop, continue can be used to skip code block from executing under a certain condition, but not stop the 
+loop entirely.
+
+Example:
+```aidl
+// print even numbers between 0 and 100
+for (int i = 0; i <= 100; i++) {
+    if ((i%2) != 0) {
+        continue; //iterate
+    }
+    System.out.println(i);
+}
+
+Only the even numbers are printed because an odd one will cause the loop to iterate early and skip the call to println.
+```
+
+### return
+The return statement is used to break from a loop or method, and sometimes return a value. It is discussed further in the next chapter. 
+Reminder to link to it.
