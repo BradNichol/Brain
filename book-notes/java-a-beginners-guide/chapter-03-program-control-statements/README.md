@@ -134,3 +134,32 @@ i is: 8 j is: 8 k is: -8
 i is: 9 j is: 9 k is: -9
 ```
 
+### The while Loop
+In a while loop, the loop repeats while the condition is true.
+
+The general form is:
+```aidl
+while (condition) {
+    statement;
+}
+```
+
+Note that the while condition is checked at the top of the loop, meaning that the loop code will not execute if the start of the loop is false.
+
+### The do-while Loop
+Unlike the for and while loop, the do-while loop checks its condition at the bottom of the loop which means that a do-while loop will always perform at least
+one iteration before checking its condition.
+
+The general form is:
+```aidl
+do {
+  statement;
+} while (condition);
+```
+
+{% hint style="info" %}
+
+Use a for loop when you know how many iterations are required. Use do-while loop when you need a loop that will always perform at least one iteration.
+Use a while loop when you need some action to be performed continously until a condition becomes false.
+
+{% endhint %}
