@@ -27,4 +27,4 @@
     * [Chapter 1. Java Fundamentals](book-notes/java-a-beginners-guide/chapter-01-java-fundamentals/README.md)
     * [Chapter 2. Data Types and Operators](book-notes/java-a-beginners-guide/chapter-02-data-types-and-operators/README.md)
     * [Chapter 3. Program Control Statements](book-notes/java-a-beginners-guide/chapter-03-program-control-statements/README.md)
-    * [Chapter 3. Introducing Classes, Objects, and Methods](book-notes/java-a-beginners-guide/chapter-04-introducing-classes-objects-methods/README.md)
+    * [Chapter 4. Introducing Classes, Objects, and Methods](book-notes/java-a-beginners-guide/chapter-04-introducing-classes-objects-methods/README.md)
