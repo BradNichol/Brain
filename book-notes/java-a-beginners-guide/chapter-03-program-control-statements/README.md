@@ -163,3 +163,27 @@ Use a for loop when you know how many iterations are required. Use do-while loop
 Use a while loop when you need some action to be performed continously until a condition becomes false.
 
 {% endhint %}
+
+## Jump Statements
+Jump statements are used to **unconditionally** transfer program control from one point to elsewhere in the program.
+
+### break
+To force an immediate exit from a loop, use the break statement. When used, the loop is terminated and the program continues at the next 
+code statement following the loop.
+
+Examples usage:
+```aidl
+int num = 50;
+
+for (int i = 0; i < num; i++) {
+    if (i*i >= num) {
+        break;
+    }
+    System.out.println(i);
+}
+
+```
+{% hint style="info" %}
+The break statement can be used in any of Java's loop types, and it can also be used in nested loops.
+Note, inside a nested loop, the break will only apply to the innermost loop it is actioned on.
+{% endhint %}
