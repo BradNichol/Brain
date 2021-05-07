@@ -83,3 +83,15 @@ Keep pressing to select more occurrences. If you want to select all of the occur
 You can now edit in bulk.
 
 ![Select Occurrences](https://raw.githubusercontent.com/BradNichol/Brain/0434ccc5b014f88bb1d2c00e31cc0e397df40f1a/media/img/selectoccurrences.gif)
+
+
+### Code Completion
+
+#### Smart Type Completion
+Smart type  completion will filter the list of code completion suggestions that are applicable within the current scope context.
+Use ⌃⇧Space to open the list.
+You can also use this for **return statement** completion when placing the cursor after return. 
+
+#### Statement Completion
+Use this to complete statements. For example, you can finish an if statement by typing if, followed by ⌘⇧↵.
+When you're inside a conditional parenthesis, you can use it to jump out once you've entered the conditions.
