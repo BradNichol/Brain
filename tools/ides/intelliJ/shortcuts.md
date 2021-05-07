@@ -95,3 +95,5 @@ You can also use this for **return statement** completion when placing the curso
 #### Statement Completion
 Use this to complete statements. For example, you can finish an if statement by typing if, followed by ⌘⇧↵.
 When you're inside a conditional parenthesis, you can use it to jump out once you've entered the conditions.
+
+![Statement completion](https://raw.githubusercontent.com/BradNichol/Brain/91a374bc6ee1e1b9a36dbd7174516d23c7b1d151/media/img/statementcompletion.gif)
