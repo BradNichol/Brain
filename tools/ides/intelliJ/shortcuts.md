@@ -97,3 +97,8 @@ Use this to complete statements. For example, you can finish an if statement by 
 When you're inside a conditional parenthesis, you can use it to jump out once you've entered the conditions.
 
 ![Statement completion](https://raw.githubusercontent.com/BradNichol/Brain/91a374bc6ee1e1b9a36dbd7174516d23c7b1d151/media/img/statementcompletion.gif)
+
+#### Completion with Tab
+When you're selecting code from a list, ALWAYS use Tab instead of Enter. It's mostly useful when you're replacing an existing
+option, as tab will replace it.
+
