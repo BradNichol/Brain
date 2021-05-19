@@ -79,7 +79,7 @@ The return type can be any valid class type. If the method doesn't return data, 
 To exit from a method, use the keyword *return value*.
 The return keyword is not required if using void, unless you want to break out early. 
 
-### Using Parameters
+#### Using Parameters
 You can pass one or more values to a method when it is called. This data is called arguments, and the receiving variables 
 are the parameters, which are declared inside a method's parenthesis'.
 
