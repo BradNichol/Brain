@@ -116,5 +116,5 @@ Once you've entered the variable name, hit enter to complete.
 ![Extract variable](https://raw.githubusercontent.com/BradNichol/Brain/a6a6ac1cbfe116a89627a00674c3926422a8be9c/media/img/extractvariable.gif)
 
 #### Extract Method
-Similar to above, to extract a method use ⌘⌥V. Intellij will create a method with a suggested name, and ask you 
+Similar to above, to extract a method use ⌘⌥M. Intellij will create a method with a suggested name, and ask you 
 to replace all other occurrences.
