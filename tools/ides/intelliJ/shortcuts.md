@@ -102,3 +102,19 @@ When you're inside a conditional parenthesis, you can use it to jump out once yo
 When you're selecting code from a list, ALWAYS use Tab instead of Enter. It's mostly useful when you're replacing an existing
 option, as tab will replace it.
 
+### Refactorings
+
+#### Rename
+To rename an item, whether it's a field, file or method etc, just press shift + F6. (⇧F6). You can then rename, and 
+press enter to confirm. You maybe prompted to rename corresponding items, i.e. getters/setters.
+
+#### Extract Variable
+If you have multiple occurrences of an expression, it is best practice to extract this to a variable.
+Select the expression and press ⌘⌥V. Intellij will prompt you for all occurrences that you'd like to replace.
+Once you've entered the variable name, hit enter to complete.
+
+![Extract variable](https://raw.githubusercontent.com/BradNichol/Brain/a6a6ac1cbfe116a89627a00674c3926422a8be9c/media/img/extractvariable.gif)
+
+#### Extract Method
+Similar to above, to extract a method use ⌘⌥V. Intellij will create a method with a suggested name, and ask you 
+to replace all other occurrences.
