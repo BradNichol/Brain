@@ -118,3 +118,17 @@ Once you've entered the variable name, hit enter to complete.
 #### Extract Method
 Similar to above, to extract a method use ⌘⌥M. Intellij will create a method with a suggested name, and ask you 
 to replace all other occurrences.
+
+#### Refactoring Menu
+If you're unsure of what refactoring options you have, or cannot remember a certain shortcut, you can use the refactoring menu instead.
+Select your code and press ⌃T.
+
+
+### Code Assistance
+Shortcuts to format code, obtain param info and preview quick popups.
+
+#### Code Format
+It's a good practice to reformat your code as much as possible. Reformatting can be done in a couple of ways:
+* Reformat a selection of code by highlighting it and press ⌥⌘L
+* Reformat a whole file by deselecting any code and press ⌥⌘L
+* Use reformat settings to choose what to reformat, press ⌥⌘⇧L
