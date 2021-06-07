@@ -132,3 +132,6 @@ It's a good practice to reformat your code as much as possible. Reformatting can
 * Reformat a selection of code by highlighting it and press ⌥⌘L
 * Reformat a whole file by deselecting any code and press ⌥⌘L
 * Use reformat settings to choose what to reformat, press ⌥⌘⇧L
+
+#### Parameter Info
+To see what parameters are required inside a method, place your cursor in the method parenthesis and press ⌘P.
