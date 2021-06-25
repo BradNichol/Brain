@@ -135,3 +135,28 @@ It's a good practice to reformat your code as much as possible. Reformatting can
 
 #### Parameter Info
 To see what parameters are required inside a method, place your cursor in the method parenthesis and press ⌘P.
+
+### Navigation
+
+#### Find and replace in files
+
+You can use ⌘⇧F and then use the search box.
+* Use ⌥W to narrow down the search to your keyword
+* ⌘⇧R to replace all
+* ⌥D to narrow to current directory only
+
+#### File structure
+When you're inside a large class and you want to reduce the noise to search the method names only:
+* Press fn⌘F12 for popup view
+* Press ⌘7 for toolbar view
+
+You can then cycle through the methods.
+
+#### Declaration and usages
+To jump to the declaration of a method, place the cursor on the method call and press ⌘B
+* Press ⌘B again to see all usages of the method
+* Press fn⌥F7 to see a detailed view of usages
+
+
+
+
