@@ -17,6 +17,7 @@
 ## Angular
 * [Intro](angular/README.md)
 * [Basics](angular/basics.md)
+* [CLI Commands](angular/cli-commands.md)
 
 ## Tools
 * [IDEs](tools/ides/README.md)
