@@ -7,6 +7,7 @@ The overall application shell is controlled by an Angular component called **App
 
 Components are the building blocks of an Angular application and three files typically make up a
 component:
+
     1. app.component.ts— the component class code, written in TypeScript.
     2. app.component.html— the component template, written in HTML.
     3. app.component.css— the component's private CSS styles.
@@ -14,6 +15,7 @@ component:
 The .ts file will always contain Component import from the angular/core library, and the @Component
 annotation is used to annote the class. This component specifies the metadata.
 The metadata properties are:
+
     1. selector— the component's CSS element selector
     2. templateUrl— the location of the component's template file.
     3. styleUrls— the location of the component's private CSS styles.
@@ -59,6 +61,7 @@ Class binding can be used to toggle a CSS style on an elements class attribute.
 ## Directives
 Directives extend functionality to your HTML that can change the style or behaviour of DOM elements.
 Angular has three directive types:
+
     1. Attribute directives
     2. Structural directives
     3. Built-in directives
