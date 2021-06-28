@@ -20,21 +20,25 @@ The metadata properties are:
     2. templateUrl— the location of the component's template file.
     3. styleUrls— the location of the component's private CSS styles.
 
-ngOnInit() is a lifecycle hook, which immediate calls after launching a component. Any initialization 
-logic should go inside the brackets.
-
 To use your component in other place, you must **export** the class, so that it can be imported into
 other components. In most cases you'll expose your component inside of AppComponent.
 
-## Pipes
-You can format data inside bindings by using the pipe | operator. Pipes can be used to format
-strings, numbers, dates etc. Angular comes with several built-in pipes, and you can also create
-your own custom ones.
+## Binding
 
-## Data Binding
+### Data Binding
 Angular provides one and two-way binding, to allow data to flow between target elements in a 
 component.
 **[(ngModel)]** is Angular's two-way data binding syntax.
+
+### Event Binding
+Various event binders can be added to html elements to listen for and respond to user actions such as clicks or mouse movements.
+One common binder is (click) that can be used to trigger functions when an element is clicked.
+
+### Class Binding
+Class binding can be used to toggle a CSS style on an elements class attribute.
+```aidl
+<li *ngFor="let hero of heroes" (click)="onSelect(hero)" [class.selected]="hero === selectedHero">
+```
 
 ## External Modules
 To add external modules/dependencies to your project, they'll need to be imported inside the top
@@ -48,29 +52,28 @@ you create are declared. If you use the CLI to create a component, it will autom
 this array with your new component. otherwise, you can manually 
 
 
-## Event Binding
-Various event binders can be added to html elements to listen for and respond to user actions such as clicks or mouse movements.
-One common binder is (click) that can be used to trigger functions when an element is clicked.
-
-## Class Binding
-Class binding can be used to toggle a CSS style on an elements class attribute.
-```aidl
-<li *ngFor="let hero of heroes" (click)="onSelect(hero)" [class.selected]="hero === selectedHero">
-```
-
 ## Directives
 Directives extend functionality to your HTML that can change the style or behaviour of DOM elements.
 Angular has three directive types:
 
-    1. Attribute directives
-    2. Structural directives
-    3. Built-in directives
+1. Attribute directives
+2. Structural directives
+3. Built-in directives
 
 ## Decorators
 Decorators are a feature of Typescript and used throughout Angular. Decorators are can customise a class at runtime.
 There are various types that can be applied to properties, classes and methods.
 For example, @Input() and @Output() decorators can be used to share data between components.
 
+## Pipes
+You can format data inside bindings by using the pipe | operator. Pipes can be used to format
+strings, numbers, dates etc. Angular comes with several built-in pipes, and you can also create
+your own custom ones.
+
+## Lifecycle Hooks
+To tap into events that happen in the lifecycle of a component running, you can use lifecycle hooks.
+The most common one you'll see in every component is ngOnInit(), which immediate calls after launching a component. 
+Any initialization logic should go inside the brackets.
 
 
 
