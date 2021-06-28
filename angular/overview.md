@@ -75,6 +75,12 @@ To tap into events that happen in the lifecycle of a component running, you can 
 The most common one you'll see in every component is ngOnInit(), which immediate calls after launching a component. 
 Any initialization logic should go inside the brackets.
 
+## Services
+Components are designed to present data and shouldn't be used to fetch or persist data directly, that's the job of a service.
+If you're calling out to access data from an external API, this code should be inside a service.
+
+
+
 
 
 

@@ -23,5 +23,10 @@ ng generate component component-name
 
 ```
 
+### Create a new service
+```aidl
 
+ng generate service service-name
+
+```
 
