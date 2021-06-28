@@ -14,6 +14,10 @@
 
 * [Resources](java/resources.md)
 
+## Angular
+* [Intro](angular/README.md)
+* [Basics](angular/basics.md)
+
 ## Tools
 * [IDEs](tools/ides/README.md)
     * [IntelliJ](tools/ides/intelliJ/README.md)
