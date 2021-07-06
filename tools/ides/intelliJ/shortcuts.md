@@ -157,6 +157,13 @@ To jump to the declaration of a method, place the cursor on the method call and 
 * Press ⌘B again to see all usages of the method
 * Press fn⌥F7 to see a detailed view of usages
 
+#### Recent files and locations
+* Press ⌘E to see all recent files access, in a popup tool box.
+* You can delete any access files from this history by clicking backspace on them.
+* ⌘⇧E will show your recent code fragments.
+
+
+
 
 
 
