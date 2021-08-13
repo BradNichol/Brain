@@ -39,3 +39,5 @@
 ## Course Notes
 
 * [Intro](course-notes/README.md)
+
+* [Spring TDD With JUnit](course-notes/spring-tdd-with-JUnit/README.md)
