@@ -15,9 +15,9 @@ is needed the most.
 
 ### Test Planning
 Have a plan before writing tests:
-1. What features need most coverage?
-2. What are the high priority test cases?
-3. What type of tests are required? (Unit, Integration, behaviour etc)
+ 1. What features need most coverage?
+ 2. What are the high priority test cases?
+ 3. What type of tests are required? (Unit, Integration, behaviour etc)
 
 ### Service Integration Tests
 Setup a service integration tests by instructing Junit to do:
