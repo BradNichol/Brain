@@ -46,10 +46,10 @@ Example test from the course:
 ```aidl
 @ExtendWith(SpringExtension.class)
 @SpringBootTest(webEnvironment = WebEnvironment.NONE)
-public class IntegrationTest {
+public class ContactManagementServiceIntegrationTest {
     
     @Autowired
-    private ContactManagementSystem systemUnderTest;
+    private ContactManagementService systemUnderTest;
     
    
     @Test
@@ -71,4 +71,56 @@ public class IntegrationTest {
 ```
 
 ### Service Unit Tests
+
+When unit testing your methods in a service class, you isolate your testing to that class only and don't need to worry about other
+dependencies should as data persistence. To achieve this you'll need to use mocks to 'mock' required dependencies.
+
+
+```aidl
+@ExtendWith(MockitoExtension.class) // this instructs the enviroment to load Mockito for mocking.
+@SpringBootTest(webEnvironment = WebEnvironment.NONE)
+public class ContactManagementServiceUnitTest {
+
+    @Mock // creates the mock the class
+    private CustomerContactRepository customerContactRepository;
+    
+    @InjectMocks // injects the above mock dependencies into the service
+    private ContactManagementService systemUnderTest;
+   
+    @Test
+    void testAddContactHappyPath() {
+        
+        //Create a contact
+        CustomerContact  aMockContact = new CustomerContact();
+        aMockContact.setFirstName("T-1000");
+        
+        // The when statement executes, when the method is called during the test, and returns the mock
+        when(customerContactRepository.save(any(CustomerContact.class))).thenReturn(aMockContact);
+        
+         //Test adding the contact
+        CustomerContact newContact = systemUnderTest.add(null); // it doesn't matter that argument you pass, because it will return the mock 
+        
+        //verify
+        assertEquals("T-1000", newContact.getFirstName());     
+    }
+}
+
+```
+
+## Testing Controller Components
+
+### Test Planning
+1. What features need most coverage?
+2. What are the high priority test cases?
+3. What type of tests are required? (Unit, Integration, behaviour etc)
+4. What kind of @Controllers are involved: MVC, RESTful, or both?
+
+{% hint style="info" %}
+The main difference between the types of controllers is the output that they send back. MVC returns ViewModel objects, whereas RESTful returns JSON
+or XML.
+{% endhint %}
+
+The following examples are for MVC controllers.
+
+
 
