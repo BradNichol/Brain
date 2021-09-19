@@ -24,5 +24,51 @@ Have a plan before writing tests:
 Setup a service integration tests by instructing Junit to do:
 * Only load @Service annotations and dependencies
 * Connect to required data source
-* Don't load unnecessary such as @RestController
+* Don't load unnecessary components such as @RestController
+
+```aidl
+@ExtendWith(SpringExtension.class)
+@SpringBootTest(webEnvironment = WebEnvironment.NONE)
+public class IntegrationTest {
+    
+    @Autowired
+    private SystemUnderTest systemUnderTest; //As a minumum, you'll need to wire in the class you're testing
+    
+   
+    //test
+}
+
+The attributes inside the spring boot test annotation make 
+sure only required components are loaded.
+```
+
+Example test from the course:
+```aidl
+@ExtendWith(SpringExtension.class)
+@SpringBootTest(webEnvironment = WebEnvironment.NONE)
+public class IntegrationTest {
+    
+    @Autowired
+    private ContactManagementSystem systemUnderTest;
+    
+   
+    @Test
+    void testAddContactHappyPath() {
+        //Create a contact
+        CustomerContact aContact = new CustomerContact();
+        aContact.setFirstName("T-1000");
+        
+        //Test adding the contact
+        CustomerContact newContact = systemUnderTest.add(aContact);
+        
+        //Verify
+        assertNotNull(newContact); // a good smoke test is initially check the returned data is not null
+        assertNotNull(newContact.getId());
+        assertEquals("T-1000", newContact.getFirstName()); 
+       
+    }
+
+```
+
+### Service Unit Tests
 
