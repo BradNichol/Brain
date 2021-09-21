@@ -72,6 +72,50 @@ for (type variable: array) {
 ```
 The loop will iterate through all elements, but you can stop the loop early with a break statement if required.
 
+### Strings
+One of the most important Java data types is the String. Unlike some other programming languages where a string is an array of characters, in Java a string is an 
+object.
+
+#### Constructing a String
+Two simple ways that you can construct a string:
+```aidl
+String str = new String("Helloooo");
+
+String str = "Helloooo";
+
+```
+The second option is typically preferred.
+
+#### String Operations
+The String class contains several methods and here's a few common ones:
+
+- boolean equals(str)
+- int length()
+- char charAt(index)
+- int compareTo(str)
+- int indexOf(str)
+- int lastIndexOf(str)
+
+#### Immutable
+String objects are immutable and so once created they cannot be altered. If you need to make a change, create a new string that contains the changes.
+
+### Type Inferance with Local Variables
+Introduced in JDK10, you can let the compiler infer the type of a local variable based on the type of its initializer. For example number = 10. 10 here is the initializing
+value that the compiler can use to infer the data type of int.
+
+To use, instead of declaring a type, use the var keyword instead:
+```aidl
+var number = 10;
+var string = "Hello";
+```
+Advantages:
+- Streamlines the code
+- Simplifies lengthy declarations
+- fits with modern and contempory programming styles
+
+**Note**: It can only be used to declare local variables.
+
+### The ? Operator
 
 
 
