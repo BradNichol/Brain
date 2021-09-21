@@ -116,6 +116,24 @@ Advantages:
 **Note**: It can only be used to declare local variables.
 
 ### The ? Operator
+The ? operator is known as the ternary operator and can be used to replace standard if-else statements.
+For example:
+
+```aidl
+if (condition) {
+  return "YES";
+} else {
+  return "NO";
+}
+
+Above can be reduced to:
+
+condition ? "OK" : "NO";
+
+```
+It's called a ternary operator because it requires three operands, starting with a boolean expression, which returns the first value if true, 
+or the second value if false.
+
 
 
 
