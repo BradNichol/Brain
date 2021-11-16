@@ -35,7 +35,10 @@
     * [Chapter 3. Program Control Statements](book-notes/java-a-beginners-guide/chapter-03-program-control-statements/README.md)
     * [Chapter 4. Introducing Classes, Objects, and Methods](book-notes/java-a-beginners-guide/chapter-04-introducing-classes-objects-methods/README.md)
     * [Chapter 5. More Data Types & Operators](book-notes/java-a-beginners-guide/chapter-05-more-data-types-and-operators/README.md)
-* [Data Pipelines With Apache Airflow](book-notes/data-pipelines-with-airflow/README.md)
+  
+* [Data Pipelines With Airflow](book-notes/data-pipelines-with-airflow/README.md)
+    * [Chapter 1. Meet Airflow](book-notes/data-pipelines-with-airflow/chapter-01-meet-apache-airflow/README.md)
+
     
 ## Course Notes
 
