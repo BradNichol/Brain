@@ -38,6 +38,7 @@
   
 * [Data Pipelines With Airflow](book-notes/data-pipelines-with-airflow/README.md)
     * [Chapter 1. Meet Airflow](book-notes/data-pipelines-with-airflow/chapter-01-meet-apache-airflow/README.md)
+    * [Chapter 2. Anatomy Of a DAG](book-notes/data-pipelines-with-airflow/chapter-02-anatomy-of-a-dag/README.md)
 
     
 ## Course Notes
