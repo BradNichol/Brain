@@ -29,6 +29,25 @@ A DAG structure used a straightforward algorithm for execution:
 2. Execute tasks in queue, marking complete
 3. Go back to step one and repeat for all tasks in the DAG.
 
+## Airflow
+Airflow is an open-source tool for developing and monitoring workflows that allows you to define pipelines
+as DAGS of tasks, flexibly with Python.
+The Python script describes the structure of a DAG, and then the set of tasks and the dependencies between them.
+
+One of the major benefits of Python in this aspect is that there are now many Airflow extensions available that enable 
+you to execute tasks across a variety of systems such as dbs, and big data tech like Google BigQuery.
+
+### Benefits
+Some of the many benefits of using Aiflow are:
+
+- Extensive scheduling and execution options
+- Monitoring and handling failures
+- Alerting options
+- UI dashboard for monitoring DAGs
+- Incremental loading and backfilling of data
+- Programmatic with the use of Python
+- Extensions
+
 
 
 
