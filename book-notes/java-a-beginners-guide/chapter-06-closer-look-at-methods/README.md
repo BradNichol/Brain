@@ -36,3 +36,12 @@ For call-by-reference which is how objects are passed, call-by-reference is used
 the method any changes made will effect/mutate the original object being called.
 
 ### Method Overloading
+One of the ways to achieve polymorphism on class methods is to use method overloading. This is the process of creating 
+two methods that use the same name, but have a different number of parameters. They are said to have different signatures.
+
+The value of this is that it allows related methods to be accessed by the use of a common name.
+
+### Constructor Overloading
+Constructors can also be overloading in a similar manner, which doing so allows you to construct objects in a variety of 
+ways.
+
