@@ -5,7 +5,7 @@ classes and objects in Java.
 
 ### Access Control
 
-## Controlling Access For Classes
+#### Controlling Access For Classes
 To support encapsulation, a Java class links data with with code, but also provides the means of access 
 with the use of two basic class members.
 
@@ -15,7 +15,7 @@ with the use of two basic class members.
 Restricting access is fundamental to achieve aspects of OOP and when correctly used, a class should be a 'black box' that
 can be used without knowing or understanding the inner workings.
 
-## Access Modifiers
+#### Access Modifiers
 Member (properties and methods) access control is achieved via three access modifiers:
 1. public
 2. private
