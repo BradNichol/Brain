@@ -45,3 +45,46 @@ The value of this is that it allows related methods to be accessed by the use of
 Constructors can also be overloading in a similar manner, which doing so allows you to construct objects in a variety of 
 ways.
 
+### Understanding Static
+If you need to define a class member that can be accessed independently of any object of that class, you can use a static 
+declaration.
+Use the keyword **static** at the start of the method or variable declaration. When you do this, the member can be accessed before 
+any object of the class is created which makes these properties global as they can be accessed throughout the application.
+
+To access the static property, use the class name followed by the dot operator to select the static.
+
+```aidl
+public class StaticExample() {
+ 
+ static String name = 'This is a static string';
+}
+
+To access:
+
+StaticExample.name
+
+```
+
+When an object is declared, no copy of static is made, instead all instances of the class share the same static variable.
+
+Methods declared as static have some restrictions:
+1. They can only call other static methods in their class
+2. They can only directly access other static variables in their class
+3. They do not have a **this**
+
+#### Static Blocks
+If your class requires pre-initialization before it's ready to create objects, such as initializing static variables you 
+can declare a static block, which is executed when the class is first loaded. Meaning any initialization happens before 
+it will be used.
+
+```aidl
+public class StaticBlockExample() {
+    
+    static int number;
+
+    static {
+        number = 5;
+     }
+}
+
+```
