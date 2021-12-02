@@ -91,3 +91,14 @@ public class StaticBlockExample() {
 }
 
 ```
+
+## Nested and Inner Classes
+A class that you declare inside another class is called a nested class and it does not exist independently outside of its 
+enclosing class. 
+There are two types of nested classes, static and non-static.
+This book covers non-static.
+
+A non-static nested class is also referred to as an inner class and it has access to all of the members of its outer class.
+Sometimes, an inner class is used to provide a set of services that is used only by its outer class.
+
+## Varargs: Variable-Length Arguments
