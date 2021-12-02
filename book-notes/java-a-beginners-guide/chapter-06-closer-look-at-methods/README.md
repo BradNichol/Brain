@@ -3,9 +3,9 @@
 This chapter goes back to methods and classes and explains features like access control, among other features of using 
 classes and objects in Java.
 
-### Access Control
+## Access Control
 
-#### Controlling Access For Classes
+### Controlling Access For Classes
 To support encapsulation, a Java class links data with with code, but also provides the means of access 
 with the use of two basic class members.
 
@@ -15,7 +15,7 @@ with the use of two basic class members.
 Restricting access is fundamental to achieve aspects of OOP and when correctly used, a class should be a 'black box' that
 can be used without knowing or understanding the inner workings.
 
-#### Access Modifiers
+### Access Modifiers
 Member (properties and methods) access control is achieved via three access modifiers:
 1. public
 2. private
@@ -23,7 +23,7 @@ Member (properties and methods) access control is achieved via three access modi
 
 If no modifier is used, the default that Java applies is public. If using packages to structure code, default access will differ.
 
-### Passing Objects
+## Passing Objects
 Objects can be passed to a method parameter just like primitive types can be, but there are some nuances to be aware of.
 There are two ways in which an argument is passed to a subroutine:
 1. call-by-value
@@ -35,6 +35,8 @@ argument in the call. This applied to primitives.
 For call-by-reference which is how objects are passed, call-by-reference is used (think memory pointers) and so inside 
 the method any changes made will effect/mutate the original object being called.
 
+## Overloading 
+
 ### Method Overloading
 One of the ways to achieve polymorphism on class methods is to use method overloading. This is the process of creating 
 two methods that use the same name, but have a different number of parameters. They are said to have different signatures.
@@ -45,7 +47,7 @@ The value of this is that it allows related methods to be accessed by the use of
 Constructors can also be overloading in a similar manner, which doing so allows you to construct objects in a variety of 
 ways.
 
-### Understanding Static
+## Understanding Static
 If you need to define a class member that can be accessed independently of any object of that class, you can use a static 
 declaration.
 Use the keyword **static** at the start of the method or variable declaration. When you do this, the member can be accessed before 
@@ -57,6 +59,7 @@ To access the static property, use the class name followed by the dot operator t
 public class StaticExample() {
  
  static String name = 'This is a static string';
+ 
 }
 
 To access:
@@ -72,7 +75,7 @@ Methods declared as static have some restrictions:
 2. They can only directly access other static variables in their class
 3. They do not have a **this**
 
-#### Static Blocks
+### Static Blocks
 If your class requires pre-initialization before it's ready to create objects, such as initializing static variables you 
 can declare a static block, which is executed when the class is first loaded. Meaning any initialization happens before 
 it will be used.
