@@ -102,3 +102,17 @@ A non-static nested class is also referred to as an inner class and it has acces
 Sometimes, an inner class is used to provide a set of services that is used only by its outer class.
 
 ## Varargs: Variable-Length Arguments
+If you need to create a method that takes a variable length of arguments you can use varargs, essentially a list of 
+arguments.
+To use, specify three dots after the type declaration.
+```aidl
+public class varArgExample() {
+    
+    void varargMethod(int ... v) {
+        System.out.println("Number of args: " + v.length);
+    }
+}
+
+```
+varargs are declared as an array and can be accessed with standard array operations. You can also used varargs alongside 
+normal arguments, but when doing this the vararg must be placed at the end.
