@@ -1,3 +1,4 @@
 # Data Pipelines With Apache Airflow
 
-My notes and exercises from each chapter of this book.
+I'm currently involved with some Data Engineering work and so the following notes will only cover the first couple of 
+chapters initially to provide a grounding in Airflow.
