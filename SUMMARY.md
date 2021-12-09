@@ -37,6 +37,7 @@
     * [Chapter 5. More Data Types & Operators](book-notes/java-a-beginners-guide/chapter-05-more-data-types-and-operators/README.md)
     * [Chapter 6. Closer Look At Methods and Classes](book-notes/java-a-beginners-guide/chapter-06-closer-look-at-methods/README.md)
     * [Chapter 7. Inheritance](book-notes/java-a-beginners-guide/chapter-07-inheritance/README.md)
+    * [Chapter 8. Packages & Interfaces](book-notes/java-a-beginners-guide/chapter-08-packages-interfaces/README.md)
   
 * [Data Pipelines With Airflow](book-notes/data-pipelines-with-airflow/README.md)
     * [Chapter 1. Meet Airflow](book-notes/data-pipelines-with-airflow/chapter-01-meet-apache-airflow/README.md)
