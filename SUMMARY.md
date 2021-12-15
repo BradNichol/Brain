@@ -1,5 +1,7 @@
 # Summary
 
+* [Knowledge Repository](README.md)
+
 ## Java
 * [Intro](java/README.md)
 
