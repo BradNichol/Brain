@@ -80,3 +80,26 @@ class Rectangle implements Shape {
 
 ```
 
+### Variables in Interfaces
+
+{% hint style="info" %}
+The following info is considered controversial and should be considered before implementing.
+{% endhint %}
+
+In large programs, a convenient way to share constant values is to create an interface without any methods and only contains 
+these shared constants. Any class that requires these values can then implement the interface. 
+
+### Extending
+Interfaces can be extended by inheriting other interfaces. This means that a class must provide implementations for all methods 
+in the interface chain.
+
+### Default Interface Methods
+Starting with JDK 8, interfaces can define some default behaviour using the _default method_.
+One of the reasons for the reasons for the introduction of default method was to allow interfaces to be expanded without
+breaking existing code.
+As a general rule, default methods are a special purpose feature and should be used only if required. 
+
+### Private Interface Methods
+An interface can include a private method, but it can only be called by a default method or another private method defined 
+in that interface.
+The primary purpose is to allow default methods to share a common piece of code, and so avoid duplication.
