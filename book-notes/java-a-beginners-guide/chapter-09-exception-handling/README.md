@@ -58,3 +58,35 @@ Catching an exception and dealing with it prevents abnormal program termination.
 when it occurs then it will be caught by the JVM. This can be an issue because the default handler in the JVM terminates 
 execution and displays a stack trace. This is useful for debugging purposes but not something that you would want any users 
 to see.
+
+## Throwing an Exception
+Alongside catching automatically thrown exceptions from the JVM, you can choose to throw your own Exceptions in certain 
+situations.
+```aidl
+throw new Exception("Exception message");
+```
+
+Exceptions are objects, which is why they must be 'newed' up. Not all exceptions require a message passing into the body.
+
+### Rethrowing an Exception
+An exception caught by one catch statement can be rethrown to be caught by an outer catch. This is typically used when your
+exception handlers (catch blocks) handle the exception in different ways. The first may perform one particular action and the 
+second another. 
+When you rethrow an exception it propagates up to the next catch and will never be caught by the same handler.
+
+## Throwable Methods
+All exceptions are subclasses of throwable and so inherit methods definded by it. Some of the most commonly used ones are:
+
+| Method                                   | Description                                                                   |
+|------------------------------------------|-------------------------------------------------------------------------------|
+| Throwable fillInStackTrace()             | Returns a Throwable object that contains a <br/> completed stack trace. Can be rethrown. |
+| String getLocalizedMessage()             | Returns a localized description of the exception.                             |       
+| String getMessage()                      | Returns a description of the exception.                                       |
+| void printStackTrace()                   | Displays the stack trace.                                                     |
+| void printStackTrace(PrintStream stream) | Sends the stack trace to the specified stream.                                |
+| void printStackTrace(PrintWriter stream) | Sends the stack trace to the specified stream.                                |
+| String toString()                        | Returns a String object containing a complete description of the exception.   |
+
+
+
+
