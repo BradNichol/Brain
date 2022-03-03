@@ -87,6 +87,11 @@ All exceptions are subclasses of throwable and so inherit methods definded by it
 | void printStackTrace(PrintWriter stream) | Sends the stack trace to the specified stream.                                |
 | String toString()                        | Returns a String object containing a complete description of the exception.   |
 
+## Using Finally
+Sometimes when you require a final operation to happen even after a catch block has executed and throw an exception, you can 
+use the finally block which will execute as the last step in the try/catch/finally block.
+Typically, used to close a file or network connection.
+
 
 
 
