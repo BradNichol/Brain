@@ -41,6 +41,7 @@
     * [Chapter 7. Inheritance](book-notes/java-a-beginners-guide/chapter-07-inheritance/README.md)
     * [Chapter 8. Packages & Interfaces](book-notes/java-a-beginners-guide/chapter-08-packages-interfaces/README.md)
     * [Chapter 9. Exception Handling](book-notes/java-a-beginners-guide/chapter-09-exception-handling/README.md)
+    * [Chapter 10. Using I/O](book-notes/java-a-beginners-guide/chapter-10-using-io/README.md)
   
 * [Data Pipelines With Airflow](book-notes/data-pipelines-with-airflow/README.md)
     * [Chapter 1. Meet Airflow](book-notes/data-pipelines-with-airflow/chapter-01-meet-apache-airflow/README.md)
